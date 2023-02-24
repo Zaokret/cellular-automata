@@ -79,7 +79,7 @@ const locationChangeHandler: PropEventCallback<Person, "location"> = (
   oldValue: Person["location"]
 ) => {
   console.log(
-    `location changed ${JSON.stringify(oldValue)} to ${JSON.stringify(
+    `location changed from ${JSON.stringify(oldValue)} to ${JSON.stringify(
       newValue
     )}`
   );
